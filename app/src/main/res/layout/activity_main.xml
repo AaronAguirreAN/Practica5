@@ -4,101 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".MainActivity"
+    android:background="@color/colorBlack">
 
     <TextView
-        android:id="@+id/quadratVermell"
+        android:id="@+id/colorRed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@id/colorOrange"
+        android:layout_toLeftOf="@id/colorOrange"
         android:background="@color/colorRed"
-        android:layout_margin="20dp"
-        android:height="50dp"
-        android:width="50dp">
-    </TextView>
-    <TextView
-        android:id="@+id/quadratVerd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorGreen"
-        android:layout_alignParentRight="true"
-        android:layout_margin="20dp"
-        android:height="50dp"
-        android:width="50dp">
-    </TextView>
-
-    <TextView
-        android:id="@+id/furtherAbove"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Further Above"
-        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="RED"
         android:textColor="@color/colorBlack"
-        android:layout_toRightOf="@id/above"
-        android:layout_above="@id/above">
+        android:textSize="10sp">
     </TextView>
     <TextView
-        android:id="@+id/above"
+        android:id="@+id/colorOrange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Above"
-        android:textSize="20sp"
+        android:layout_above="@id/colorYell"
+        android:layout_toLeftOf="@id/colorYell"
+        android:background="@color/colorOrange"
+        android:padding="10dp"
+        android:text="ORANGE"
         android:textColor="@color/colorBlack"
-        android:layout_toRightOf="@id/center"
-        android:layout_above="@id/center">
+        android:textSize="10sp">
     </TextView>
     <TextView
-        android:id="@+id/center"
+        android:id="@+id/colorYell"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Center"
-        android:textSize="20sp"
-        android:textColor="@color/colorBlack"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp">
-    </TextView>
-    <TextView
-        android:id="@+id/below"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Below"
-        android:textSize="20sp"
-        android:textColor="@color/colorBlack"
-        android:layout_toRightOf="@id/center"
-        android:layout_below="@id/center">
-    </TextView>
-    <TextView
-        android:id="@+id/furtherBelow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Further Below"
-        android:textSize="20sp"
-        android:textColor="@color/colorBlack"
-        android:layout_toRightOf="@id/below"
-        android:layout_below="@id/below">
-    </TextView>
-
-    <TextView
-        android:id="@+id/quadratBlau"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorBlue"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="false"
-        android:layout_margin="20dp"
-        android:height="50dp"
-        android:width="50dp">
-    </TextView>
-    <TextView
-        android:id="@+id/quadratGroc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_above="@id/colorFuc"
+        android:layout_toLeftOf="@id/colorFuc"
+        android:text="YELLOW"
         android:background="@color/colorYellow"
-        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="10sp">
+    </TextView>
+    <TextView
+        android:id="@+id/colorFuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_margin="20dp"
-        android:height="50dp"
-        android:width="50dp">
+        android:layout_centerInParent="true"
+        android:layout_marginRight="100dp"
+        android:background="@color/colorFuchsia"
+        android:padding="10dp"
+        android:text="FUCHSIA"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp">
+    </TextView>
+    <TextView
+        android:id="@+id/colorBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colorFuc"
+        android:layout_toLeftOf="@id/colorFuc"
+        android:background="@color/colorBlue"
+        android:padding="10dp"
+        android:text="BLUE"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp">
+    </TextView>
+    <TextView
+        android:id="@+id/colorPurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colorBlue"
+        android:layout_toLeftOf="@id/colorBlue"
+        android:background="@color/colorPurple"
+        android:padding="10dp"
+        android:text="PURPLE"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp">
+    </TextView>
+    <TextView
+        android:id="@+id/colorGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colorPurple"
+        android:layout_toLeftOf="@id/colorPurple"
+        android:background="@color/colorGreen"
+        android:padding="10dp"
+        android:text="GREEN"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp">
     </TextView>
 
 </RelativeLayout>
