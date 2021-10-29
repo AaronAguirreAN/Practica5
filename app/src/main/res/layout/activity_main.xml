@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/quadratVermell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:layout_margin="20dp"
+        android:height="50dp"
+        android:width="50dp">
+    </TextView>
+    <TextView
+        android:id="@+id/quadratVerd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:height="50dp"
+        android:width="50dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/furtherAbove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Further Above"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/above"
+        android:layout_above="@id/above">
+    </TextView>
+    <TextView
+        android:id="@+id/above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Above"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/center"
+        android:layout_above="@id/center">
+    </TextView>
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp">
+    </TextView>
+    <TextView
+        android:id="@+id/below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Below"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/center"
+        android:layout_below="@id/center">
+    </TextView>
+    <TextView
+        android:id="@+id/furtherBelow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Further Below"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/below"
+        android:layout_below="@id/below">
+    </TextView>
+
+    <TextView
+        android:id="@+id/quadratBlau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="false"
+        android:layout_margin="20dp"
+        android:height="50dp"
+        android:width="50dp">
+    </TextView>
+    <TextView
+        android:id="@+id/quadratGroc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorYellow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:height="50dp"
+        android:width="50dp">
+    </TextView>
+
+</RelativeLayout>
