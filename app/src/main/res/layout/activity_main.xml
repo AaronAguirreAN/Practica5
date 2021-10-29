@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:text="Further Above"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
         android:layout_toRightOf="@id/above"
         android:layout_above="@id/above">
     </TextView>
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:text="Above"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
         android:layout_toRightOf="@id/center"
         android:layout_above="@id/center">
     </TextView>
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:text="Center"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
         android:layout_centerVertical="true"
         android:layout_marginLeft="20dp">
     </TextView>
@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:text="Below"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
         android:layout_toRightOf="@id/center"
         android:layout_below="@id/center">
     </TextView>
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:text="Further Below"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
         android:layout_toRightOf="@id/below"
         android:layout_below="@id/below">
     </TextView>
